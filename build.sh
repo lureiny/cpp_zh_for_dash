@@ -23,4 +23,4 @@ tar czf ${CPP_TAR} zh.cppreference.com
 
 echo ${1} | gh auth login --with-token
 
-gh release create ${DATE} --notes  "" optimizedIndex.dsidx
+gh release create ${DATE} --notes  " " ${CPP_TAR}
